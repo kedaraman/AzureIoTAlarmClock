@@ -1,0 +1,15 @@
+{
+  "SchemaVersion": 1,
+  "Name" : "AzureSphereAlarmClock",
+  "ComponentId" : "e8644aa2-2d11-4837-9ee2-93777fe8f029",
+  "EntryPoint": "/bin/app",
+  "CmdArgs": [ "0ne0006D3FC" ],
+    "Capabilities": {
+        "AllowedConnections": [ "global.azure-devices-provisioning.net", "TurboTime.azure-devices.net" ],
+        "Gpio": [ 8, 9, 12 ],
+        "Uart": [],
+        "WifiConfig": false,
+        "DeviceAuthentication": "f8140ca9-3401-4a7e-9762-ff899fb35650"
+    },
+  "ApplicationType":"Default"
+}
